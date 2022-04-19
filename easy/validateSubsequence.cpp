@@ -15,6 +15,7 @@
 
 using namespace std;
 
+// O(n) time | O(1) space
 bool isValidSubsequence(std::vector<int> array, std::vector<int> sequence) {	
 	for(int i = 0, s = 0; i < array.size(); i++ ) {
 		if(array.at(i) == sequence.at(s))  {
